@@ -2,12 +2,12 @@ package com.example.kaphelcoma.test
 
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
-import org.openqa.selenium.firefox.FirefoxDriver
+import org.openqa.selenium.chrome.ChromeDriver
 import java.util.concurrent.TimeUnit
 
 open class WebPage {
     companion object {
-        val driver: WebDriver = FirefoxDriver()
+        val driver: WebDriver = ChromeDriver()
     }
 
     val host = "http://aphelcoma.herokuapp.com/"
